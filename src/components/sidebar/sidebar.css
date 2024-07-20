@@ -1,0 +1,53 @@
+.sidebar{
+    height:100vh;
+    padding-left:2%;
+    padding-top:2rem;
+    width:15%;
+    background-color:#fff;
+    position: fixed;
+}
+.shortcut-links img{
+    width:1.5rem;
+    margin-right:1.5rem;
+}
+.sidelink{
+    display:flex;
+    align-items: center;
+    width:fit-content;
+    flex-wrap: wrap;
+    cursor:pointer;
+    margin-bottom:1rem;
+}
+.subscribed-list h3{
+    color:#5a5a5a;
+    font-size:0.75rem;
+    margin-top:1.25rem;
+    margin-bottom:1.25rem;
+}
+.subscribed-list img{
+    width:1.5rem;
+    border-radius: 50%;
+    margin-right:.1.25rem;
+}
+.smallsidebar{
+    width:5%;
+}
+.smallsidebar p{
+    display:none;
+}
+.smallsidebar h3{
+    display:none;
+}
+.smallsidebar hr{
+    width:50%;
+    margin-bottom:1.5rem;
+}
+.sidelink.active img{
+    padding-bottom:2px;
+    border-bottom:3px solid red;
+}
+@media (max-width:900px){
+    .sidebar{
+        display:none;
+    }
+}
